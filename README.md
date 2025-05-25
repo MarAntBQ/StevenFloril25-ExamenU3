@@ -24,12 +24,12 @@ npm install
 3. Configura las variables de entorno:
 El archivo `.env` ya contiene la configuración básica:
 ```
-PORT=3000
-DB_USER=espe
-DB_PASS=espe
-DB_HOST=localhost
-DB_NAME=eventosDB
-DB_PORT=5432
+PORT=
+DB_USER=
+DB_PASS=
+DB_HOST=
+DB_NAME=
+DB_PORT=
 ```
 
 4. Inicia la base de datos con Docker Compose:
