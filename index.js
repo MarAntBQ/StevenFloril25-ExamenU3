@@ -3,7 +3,7 @@ const { logErrors, boomErrorHandler, errorHandler } = require('./middlewares/err
 const routerApi = require('./routes'); // Importa la función routerApi
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT ? process.env.PORT : 3000;
 
 // Middleware para parsear JSON
 app.use(express.json());
